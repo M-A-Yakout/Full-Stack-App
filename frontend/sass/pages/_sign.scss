@@ -1,0 +1,15 @@
+//import colors
+
+@use "../variables/color" as *;
+
+.checkBox {
+  b {
+    color: $pinkColor;
+  }
+}
+
+.bottomLogin{
+    a{
+        text-decoration: none;
+    }
+}

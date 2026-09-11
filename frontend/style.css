@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.logo {
+  margin: 51px 0;
+}
+
+.pill {
+  border: 1px solid #515def;
+  width: 32px;
+  height: 10px;
+  position: absolute;
+  border-radius: 5px;
+  right: 50%;
+  bottom: 24px;
+  background-color: #515def;
+}
+
+.dot {
+  border: 1px solid #313131;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  right: calc(50% - 15px);
+  bottom: 24px;
+  background-color: #313131;
+  border-radius: 50%;
+}
+
+.dot:nth-of-type(2) {
+  right: calc(50% - 30px);
+  bottom: 24px;
+  background-color: #313131;
+}
+
+.loginAvatar {
+  width: 616px;
+  height: 616px;
+  position: relative;
+}
+.loginAvatar img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.loginPanel {
+  margin: 240px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 45px;
+}
+.loginPanel a {
+  color: #ff8682;
+  font-weight: bolder;
+}
+
+.checkBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.loginWith {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #313131;
+}
+.loginWith p {
+  padding: 0 16px;
+  white-space: nowrap;
+}
+.loginWith .line {
+  border: 1px solid #313131;
+  height: 1px;
+  width: 100%;
+}
+
+.bottomLogin p {
+  padding: 16px 0 0 0;
+}
+
+.header h2 {
+  margin-bottom: 16px;
+}
+
+.passwordInput {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  width: 100%;
+}
+.passwordInput input {
+  width: 100%;
+}
+.passwordInput i {
+  position: absolute;
+  right: 0;
+  padding-right: 30px;
+  cursor: pointer;
+}
+
+.checkBox b {
+  color: #ff8682;
+}
+
+.bottomLogin a {
+  text-decoration: none;
+}
+
+form {
+  width: 512px;
+}
+form .email {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+form .password {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+form .remember {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 8px;
+}
+form input {
+  height: 40px;
+}
+form .Sign {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 25px;
+     -moz-column-gap: 25px;
+          column-gap: 25px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.bottomLogin {
+  text-align: center;
+}
+.bottomLogin input {
+  width: 100%;
+  cursor: pointer;
+  background: #515def;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.loginMethods {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+.loginMethods .borderIcon {
+  border: 1px solid #515def;
+  padding: 10px 60px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.loginMethods .loginImage {
+  font-size: 25px;
+}
+
+main {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+main section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}

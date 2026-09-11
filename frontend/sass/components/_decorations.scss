@@ -1,0 +1,33 @@
+//import colors
+@use "../variables/color" as *;
+
+//import radius
+@use "../variables/border-radius" as *;
+
+.pill {
+  border: 1px solid $loginColor;
+  width: 32px;
+  height: 10px;
+  position: absolute;
+  border-radius: $radius-small;
+  right: 50%;
+  bottom: 24px;
+  background-color: $loginColor;
+}
+.dot {
+  border: 1px solid $grayColor;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  right: calc(50% - 15px);
+  bottom: 24px;
+  background-color: $grayColor;
+  border-radius: $radius-circle;
+}
+
+
+.dot:nth-of-type(2) {
+  right: calc(50% - 30px);
+  bottom: 24px;
+  background-color: $grayColor;
+}

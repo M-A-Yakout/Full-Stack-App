@@ -1,0 +1,18 @@
+//import colors
+@use "../variables/color" as *;
+
+//import border radius size
+@use "../variables/border-radius" as *;
+
+.bottomLogin {
+  text-align: center;
+
+  input {
+    width: 100%;
+    cursor: pointer;
+    background: $loginColor;
+    color: $whiteColor;
+    border: none;
+    border-radius: $radius-small;
+  }
+}

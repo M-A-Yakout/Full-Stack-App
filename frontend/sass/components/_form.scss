@@ -1,0 +1,28 @@
+form {
+  width: 512px;
+  .email {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+
+  .password {
+    display: flex;
+    flex-direction: column;
+  }
+  .remember {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  input {
+    height: 40px;
+  }
+
+  .Sign {
+    display: flex;
+    column-gap: 25px;
+    flex-wrap: wrap;
+  }
+}

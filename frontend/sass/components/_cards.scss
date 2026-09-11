@@ -1,0 +1,20 @@
+//import colors
+@use "../variables/color" as *;
+//import border radius size
+@use "../variables/border-radius" as *;
+.loginMethods {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+
+  .borderIcon {
+    border: 1px solid $loginColor;
+    padding: 10px 60px;
+    border-radius: $radius-small;
+    cursor: pointer;
+  }
+  .loginImage {
+    font-size: 25px;
+  }
+}

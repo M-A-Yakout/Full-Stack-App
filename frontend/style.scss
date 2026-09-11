@@ -1,0 +1,29 @@
+//import global rules
+@use "./sass/layout/global-rules" as *;
+
+//import login
+@use "./sass/pages/login" as *;
+
+//import sign
+
+@use "./sass/pages/sign" as *;
+
+//import form
+@use "./sass/components/form" as *;
+
+//import button for login
+@use "./sass/components/button" as *;
+
+//import cards for style login
+@use "./sass/components/cards" as *;
+
+main {
+  height: 100vh;
+  display: flex;
+
+  section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

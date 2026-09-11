@@ -1,0 +1,85 @@
+//import colors
+
+@use "../variables/color" as *;
+
+//import header
+
+@use "../components/header" as *;
+
+//import decoration
+
+@use "../components/decorations" as *;
+
+$fontSizeL: 20px;
+
+.loginAvatar {
+  width: 616px;
+  height: 616px;
+  position: relative;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+}
+
+.loginPanel {
+  margin: 240px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+
+  a {
+    color: $pinkColor;
+    font-weight: bolder;
+  }
+}
+
+.checkBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.loginWith {
+  display: flex;
+  align-items: center;
+  color: $grayColor;
+
+  p {
+    padding: 0 16px;
+    white-space: nowrap;
+  }
+
+  .line {
+    border: 1px solid $grayColor;
+    height: 1px;
+    width: 100%;
+  }
+}
+.bottomLogin p {
+  padding: 16px 0 0 0;
+}
+
+.header h2 {
+  margin-bottom: 16px;
+}
+
+.passwordInput {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 100%;
+
+  input {
+    width: 100%;
+  }
+
+  i {
+    position: absolute;
+    right: 0;
+    padding-right: 30px;
+    cursor: pointer;
+  }
+}
